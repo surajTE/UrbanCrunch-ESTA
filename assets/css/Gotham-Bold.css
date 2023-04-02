@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Gotham-Bold';
+	src: url(../../assets/fonts/GothamBold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/GothamBold.eot) format('embedded-opentype'),
+	url(../../assets/fonts/GothamBold.otf) format('otf'),
+	url(../../assets/fonts/GothamBold.svg) format('svg'),
+	url(../../assets/fonts/GothamBold.ttf) format('truetype'),
+	url(../../assets/fonts/GothamBold.woff) format('woff'),
+	url(../../assets/fonts/GothamBold.woff2) format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}

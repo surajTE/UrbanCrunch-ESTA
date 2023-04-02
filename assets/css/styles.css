@@ -1,0 +1,1036 @@
+#top_menu h5 {
+  color: #CD5929;
+  font-family: 'Proxima Nova Alt Rg';
+  font-size: 14px;
+  /*font-weight: bold;*/
+  padding: 10px 10px;
+  letter-spacing: 0;
+  line-height: 17px;
+  float: left;
+}
+
+#top_menu {
+  font-family: 'Proxima Nova Alt Rg';
+  color: #cd5929;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 17px;
+  padding: 0;
+}
+
+.h6, h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p {
+  color: #cd5929;
+  letter-spacing: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 991px) {
+  #features img {
+    width: 45%;
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #features img {
+    width: 68%;
+    margin: 10px 0;
+  }
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+dl, ol, ul {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+#source {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  right: 23%;
+  bottom: -32%;
+  border-radius: 50%;
+}
+
+s {
+  position: absolute;
+  width: 47%;
+  height: 50%;
+  right: -17%;
+  top: -36%;
+  border-radius: 50%;
+}
+
+#execute {
+  position: absolute;
+  width: 65%;
+  height: 47%;
+  left: 6%;
+  top: -37%;
+  border-radius: 50%;
+}
+
+@media (max-width: 1193px) {
+  #source_info {
+    display: none;
+  }
+}
+
+#source_info {
+  /*transform: scale(0);*/
+  transition: .5s ease;
+}
+
+#source_page:hover > #source_info {
+  transform: scale(1);
+}
+
+#enale_page:hover > #enable_info {
+  transform: scale(1);
+}
+
+@media (max-width: 1193px) {
+  #enable_info {
+    display: none;
+  }
+}
+
+#enable_info {
+  /*transform: scale(0);*/
+  transition: .5s ease;
+}
+
+#execute_page:hover > #execute_info {
+  transform: scale(1);
+  transition: .5s ease;
+}
+
+@media (max-width: 1193px) {
+  #execute_info {
+    display: none;
+  }
+}
+
+#execute_info {
+  /*transform: scale(0);*/
+}
+
+@media (max-width: 991px) {
+  #top_menu {
+    background: #1a1a1a;
+    display: none;
+    padding: 2% 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #top_menu_bar {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #footer {
+    /*width: 80%;*/
+    margin: auto;
+    margin-bottom: 6%;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+@media (min-width: 1193px) {
+  #esta_info {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  #top_menu h5 {
+    float: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #top_menu h5 {
+    padding: 0 0 0 24px;
+  }
+}
+
+@media (min-width: 991px) {
+  #service_info p {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 992px) {
+  #service_info p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  #logo {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #services_info2 h5 {
+    text-align: left;
+  }
+}
+
+@media (max-width: 991px) {
+  #services_info2 h5 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer {
+    margin: 0;
+  }
+}
+
+.border-bottom {
+  border-bottom: 2px solid #535353!important;
+}
+
+.border-top {
+  border-top: 1px solid #535353!important;
+}
+
+@media (max-width: 991px) {
+  #logo_footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo_footer {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .home_heading {
+    padding: 21% 0 21% 3%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .home_heading {
+    padding: 39% 0 40% 3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home_heading {
+    padding: 31% 0 27% 3%;
+    background-image: url("../../assets/img/Home_Banner.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .home_heading {
+    padding: 60% 5% 50% 10%;
+    background-image: url("../../assets/img/Home_Banner2.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+#enbale {
+  position: absolute;
+  width: 52%;
+  height: 55%;
+  right: 30%;
+  top: -51%;
+  border-radius: 50%;
+}
+
+@media (min-width: 991px) {
+  #logo_footer img {
+    width: 75%;
+  }
+}
+
+@media (max-width: 992px) {
+  #logo_footer img {
+    width: 65%;
+  }
+}
+
+.effect:hover {
+  transform: scale(1.06);
+  border-right: 1px solid rgba(255,255,255,0.49);
+  border-left: 1px solid #ffffff7d;
+  border-radius: 20px;
+}
+
+.effect {
+  transition: 0.5s ease;
+}
+
+.page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+}
+
+.close_service:hover {
+  color: #ccc;
+  transform: rotate(360deg);
+  background: 0;
+}
+
+.close_service {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  padding: 7px;
+  float: right;
+  background-color: #9f9d9d;
+  border-radius: 10px;
+  margin: 10px;
+  width: 40px;
+  text-align: center;
+  color: #1a1a1a;
+  transition: .2s ease;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  #features {
+    margin: 0 4%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 991px) {
+  #features {
+    /*margin: 0 10%;*/
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 991px) {
+  .promise_info {
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  #esta_logo {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+}
+
+@media (min-width: 991px) {
+  #esta_logo {
+    text-align: right;
+  }
+}
+
+@media (min-width: 991px) {
+  #esta_service_info {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  #esta_main {
+    width: 100%;
+    margin-left: initial;
+  }
+}
+
+@media (min-width: 991px) {
+  #esta_main {
+    width: 68%;
+    margin-left: 9%;
+  }
+}
+
+@media (min-width: 992px) {
+  #about_desc {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  #about_desc {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  #services_info2 p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 991px) {
+  .service_data {
+    padding: 0 0 0 10%;
+  }
+}
+
+@media (min-width: 991px) {
+  #services_info2 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  #services_info2 img {
+    width: 85%;
+  }
+}
+
+@media (max-width: 992px) {
+  .txt_center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 991px) {
+  #offset_data {
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 991px) {
+  .servive_data {
+    padding: 0 0 0 6%;
+  }
+}
+
+@media (max-width: 992px) {
+  #services_info p {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 991px) {
+  #services_info img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  #services_info img {
+    width: 75%;
+  }
+}
+
+@media (max-width: 991px) {
+  #model_para {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 991px) {
+  #model_para {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 992px) {
+  #model_para {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  #top_menu h5 {
+    padding: 0 0 0 48px;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_partner {
+    margin: 7% 0 10% 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  #esta_partner_data {
+    padding: 28% 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_partner_data {
+    padding: 2% 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_partner_data {
+    position: absolute;
+    padding: 0;
+    opacity: 0.2;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_partner_data img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_baner {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_baner {
+    background-image: url("../../assets/img/Home_Banner.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_left {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_left {
+    top: 23%;
+    left: 59%;
+    right: -142%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #esta_left {
+    top: 35%;
+    left: 70%;
+    right: -142%;
+  }
+}
+
+@media (max-width: 991px) {
+  #group_data {
+    /*width: 88%;*/
+    margin-top: 7%;
+    /*margin-left: 6%;*/
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #group_data {
+    /*width: 88%;*/
+    margin-top: 7%;
+    /*margin-left: 10%;*/
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_data {
+    padding: 15% 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_group_data {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_group_data {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_value {
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_value {
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #model_data {
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #model {
+    margin: 7% 0 10% 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #model {
+    margin: 7% 0 10% 0;
+  }
+}
+
+@media (max-width: 988px) {
+  #offset_group {
+    margin: 2% 0 7% 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #offset_group {
+    margin: 2% 0 7% 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #service_datas {
+    margin: auto;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  #service_datas {
+    margin: auto;
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 991px) {
+  #life_cycle {
+    padding: 0 2%;
+  }
+}
+
+@media (min-width: 992px) {
+  #life_cycle {
+    padding: 0 6%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .info {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .about_data {
+    padding: 0 5% 0 3%;
+  }
+}
+
+@media (min-width: 992px) {
+  .about_data {
+    padding: 0 2%;
+  }
+}
+
+@media (min-width: 768px) {
+  #esta_value {
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  #offset_data {
+    padding-left: 4%;
+  }
+}
+
+@media (max-width: 992px) {
+  #cap_data {
+    margin: auto;
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 992px) {
+  #cap_data {
+    margin: auto;
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 768px) {
+  #life_cycle {
+    padding: 0 1%;
+  }
+}
+
+@media (max-width: 767px) {
+  .home_partner_data {
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #footer h5 {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer h5 {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 4%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .fix_width {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+#header {
+  margin: 22px 0;
+}
+
+@media (min-width: 1440px) {
+  #header {
+    margin: auto;
+    max-width: 1440px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #features {
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_line {
+    margin: 0 2%;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_line {
+    margin: 0 2%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esta_line {
+    margin: auto;
+    max-width: 1440px;
+    /*margin-left: 9%;*/
+  }
+}
+
+@media (max-width: 991px) {
+  #home_esta_strategic {
+    width: 80%;
+    margin: 10%;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  #home_esta_strategic {
+    /*width: 80%;*/
+    margin: auto;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #home_esta_strategic {
+    /*width: 57%;*/
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_model_img {
+    margin: 0 2%;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_model_img {
+    margin: 0 2%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esta_model_img {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #footer {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #group_data {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  #services_info2 {
+    margin: 0 0 12% 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #services_info2 {
+    margin: 0 0 12% 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #services_info2 {
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_value_model_info {
+    margin: 7% 0 5% 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_value_model_info {
+    margin: 7% 0 5% 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esta_value_model_info {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #model {
+    margin: auto;
+    max-width: 1440px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #offset_group {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 7%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #service_datas {
+    margin: auto;
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #cap_data {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  #life_cycle_data {
+    margin: 7% 0 0 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #life_cycle_data {
+    margin: 7% 0 0 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #life_cycle_data {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esta_partner {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_contact_page {
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_contact_page {
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esta_contact_page {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_group_para {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_group_para {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esta_group_para {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  #esta_vision {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #esta_vision {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esta_vision {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 3%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #about_desc {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #esta_value {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #value_cate {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
